@@ -1,6 +1,6 @@
 # Problem Set 0
-Programming Language: Scratch
-Coding environnment: https://scratch.mit.edu/
+* Programming Language: Scratch
+* Coding environnment: https://scratch.mit.edu/
 
 ## Project includes:
 * At least two sprites, at least one of which resembles something other than a cat.
