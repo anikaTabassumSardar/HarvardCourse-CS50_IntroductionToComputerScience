@@ -14,7 +14,14 @@ This project demonstrates basic understanding and implementation of programming 
   - ./hello
   
 ### Mario (beginner)
-
+- Takes user input for height and builds a pyramid like the mario game.
+- Project file: [marioBeginner.c](marioBeginner.c)
+- Run the following commands:
+  - make marioBeginner.c
+  - ./marioBeginner
+ - Pseudocode: [pseudocode_MarioBeginner.md](https://github.com/anikaTabassumSardar/CS50_HarvardCourse/blob/master/Week%201%20-%20C/Snapshots%20%26%20Text%20Files/pseudocode_MarioBeginner.md)
+ - Snapshot of the pyramid: [MarioBeginnerPyramid](https://github.com/anikaTabassumSardar/CS50_HarvardCourse/blob/master/Week%201%20-%20C/Snapshots%20%26%20Text%20Files/MarioBeginnerPyramid.JPG)
+ 
 ### Mario (intermediate)
 
 ### Cash (beginner)
