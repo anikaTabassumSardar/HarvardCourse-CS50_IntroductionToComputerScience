@@ -8,6 +8,7 @@ This project demonstrates basic understanding and implementation of programming 
 ## Project(s) include:
 ### Hello
 - Takes user input using cs50 library for strings and print greet user with their name.
+- Project file: [hello.c](hello.c)
 - Run the following commands:
   - make hello.c
   - ./hello
