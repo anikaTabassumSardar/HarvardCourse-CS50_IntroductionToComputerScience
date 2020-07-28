@@ -11,6 +11,6 @@
 ## Project overview:
 This project sets up a small role-play/conversation between two basketball enthusiasts. It shows the interest of an individual in a differently-abled basketball player. It covers the usages of all the topics covered during the lecture (animation, sound, conditional loops, multiple scripts, etc)
 
-## User inputs required: 
+## How to use/pre-reqs:
 * Your name
 * Yes or no as valid input for the next question
