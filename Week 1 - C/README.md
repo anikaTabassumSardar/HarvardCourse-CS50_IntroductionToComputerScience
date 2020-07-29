@@ -14,7 +14,7 @@ This project demonstrates basic understanding and implementation of programming 
   - ./hello
   
 ### Mario (beginner)
-- Takes user input for height and builds a pyramid like the mario game.
+- Takes user input for height and builds a right-leaning pyramid like the mario game.
 - Project file: [marioBeginner.c](marioBeginner.c)
 - Run the following commands:
   - make marioBeginner.c
@@ -23,6 +23,12 @@ This project demonstrates basic understanding and implementation of programming 
  - Snapshot of the pyramid: [MarioBeginnerPyramid](https://github.com/anikaTabassumSardar/CS50_HarvardCourse/blob/master/Week%201%20-%20C/Snapshots%20%26%20Text%20Files/MarioBeginnerPyramid.JPG)
  
 ### Mario (intermediate)
+- Takes user input for height and builds both right and left-leaning pyramids separated by space like the mario game.
+- Project file: [marioIntermediate.c](marioIntermediate.c)
+- Run the following commands:
+  - make marioIntermediate.c
+  - ./marioIntermediate
+- Snapshot of the pyramid: [MarioIntermediatePyramid](https://github.com/anikaTabassumSardar/CS50_HarvardCourse/blob/master/Week%201%20-%20C/Snapshots%20%26%20Text%20Files/MarioIntermediatePyramid.JPG)
 
 ### Cash (beginner)
 -  A program that first asks the user how much change is owed and then prints the minimum number of coins with which that change can be made. The only coins available are quarters (25¢), dimes (10¢), nickels (5¢), and pennies (1¢). The instruction asks for a greedy algorithm.
