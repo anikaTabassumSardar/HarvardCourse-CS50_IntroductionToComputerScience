@@ -25,7 +25,12 @@ This project demonstrates basic understanding and implementation of programming 
 ### Mario (intermediate)
 
 ### Cash (beginner)
-
+-  A program that first asks the user how much change is owed and then prints the minimum number of coins with which that change can be made. The only coins available are quarters (25¢), dimes (10¢), nickels (5¢), and pennies (1¢). The instruction asks for a greedy algorithm.
+- Project file: [cashBeginner.c](cashBeginner.c)
+- Run the following commands:
+  - make cashBeginner
+  - ./cashBeginner
+  
 ### Credit (intermediate)
 
 ## To run the app:
