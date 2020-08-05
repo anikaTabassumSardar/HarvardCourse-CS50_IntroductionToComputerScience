@@ -17,6 +17,10 @@ This project demonstrates basic understanding and implementation of programming 
 - Run the following commands:
   - make readability
   - ./readability
+- Snapshot:
+  - [Test Cases 1](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%202%20-%20Arrays/Snapshots/testCases_caesar(1).PNG)
+  - [Test Cases 2](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%202%20-%20Arrays/Snapshots/testCases_caesar(2).PNG)
+
   
 ### Caesar (beginner)
 - Implements a program that encrypts messages using Caesar’s cipher.
