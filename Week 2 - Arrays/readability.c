@@ -4,8 +4,13 @@
 #include <ctype.h>
 #include <math.h>
 
+//method to check if it is a letter
 bool isLetter(char c);
+
+//method to check if it is a word
 bool isWord(char c);
+
+//method to check if it is a sentence
 bool isSentence(char c);
 
 int main(void)
@@ -19,26 +24,26 @@ int main(void)
      * */
     int totalNumOfLetters = 0, totalNumOfWords = 1, totalNumOfSentences = 0;
 
-    for(int i=0, n = strlen(text); i < n; i++){
-
-        if(isLetter(text[i]))
+    for (int i = 0, n = strlen(text); i < n; i++)
+    {
+        if (isLetter(text[i]))
         {
             totalNumOfLetters++;
         }
 
-        if(isWord(text[i]))
+        if (isWord(text[i]))
         {
             totalNumOfWords++;
         }
 
-        if(isSentence(text[i]))
+        if (isSentence(text[i]))
         {
             totalNumOfSentences++;
         }
     }
 
-    float avgNumOfLettersPer100Words = (totalNumOfLetters/(float)totalNumOfWords) * 100;
-    float avgNumOfSentencesPer100Words = (totalNumOfSentences/(float)totalNumOfWords) * 100;
+    float avgNumOfLettersPer100Words = (totalNumOfLetters / (float)totalNumOfWords) * 100;
+    float avgNumOfSentencesPer100Words = (totalNumOfSentences / (float)totalNumOfWords) * 100;
 
     /**
      * Coleman-Liau formula to determine the reading level/grade
@@ -51,11 +56,11 @@ int main(void)
     int roundedGrade = round(grade); //rounding to the nearest 10
 
     //identify grade
-    if(roundedGrade < 1 )
+    if (roundedGrade < 1)
     {
         printf("Before Grade 1\n");
     }
-    else if(roundedGrade >= 16)
+    else if (roundedGrade >= 16)
     {
         printf("Grade 16+\n");
     }
@@ -70,7 +75,7 @@ int main(void)
  * */
 bool isLetter(char c)
 {
-    if((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+    if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
     {
         return true;
     }
@@ -82,7 +87,7 @@ bool isLetter(char c)
  * */
 bool isWord(char c)
 {
-    if(isspace(c))
+    if (isspace(c))
     {
         return true;
     }
@@ -94,11 +99,11 @@ bool isWord(char c)
  * */
 bool isSentence(char c)
 {
-    if(!isWord(c)
-    && !isLetter(c)
-    && (c == '.'
-    || c == '?'
-    || c == '!'))
+    if (!isWord(c)
+        && !isLetter(c)
+        && (c == '.'
+            || c == '?'
+            || c == '!'))
     {
         return true;
     }
