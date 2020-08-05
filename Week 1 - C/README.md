@@ -4,7 +4,12 @@
 
 ## Project overview:
 This project demonstrates basic understanding and implementation of programming concepts with the programming language C.
-
+- Concepts covered: 
+  - Data Types
+  - Operators
+  - Conditional Statements
+  - Command Line
+  
 ## Project(s) include:
 ### Hello
 - Takes user input using cs50 library for strings and print greet user with their name.
