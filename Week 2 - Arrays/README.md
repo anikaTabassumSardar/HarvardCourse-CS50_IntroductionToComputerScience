@@ -34,6 +34,7 @@ This project demonstrates basic understanding and implementation of programming 
 ### Substitution (intermediate)
 - Implements a program that implements a substitution cipher.
 - Project file: [substitutionCiper.c](substitutionCiper.c)
+- Test cases: [Test Cases](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%202%20-%20Arrays/Snapshots/TestCasesForSubstitutionCipher.JPG)
 - Run the following commands:
   - make substitutionCiper
   - ./substitutionCiper
