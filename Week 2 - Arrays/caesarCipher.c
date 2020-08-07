@@ -125,6 +125,5 @@ bool checkIfCharBelongsToAlphabet(int ascii)
     {
         return true;
     }
-
     return false;
 }
