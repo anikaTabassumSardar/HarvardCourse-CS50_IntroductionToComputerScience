@@ -15,7 +15,7 @@ bool checkIfCharBelongsToAlphabet(int ascii);
 **/
 int main(int argc, string argv[])
 {
-    //exit early if the
+    //exit early if the key passes more than one CLI argument
     if (argc != 2)
     {
         printf("Usage: ./caesar key\n");
