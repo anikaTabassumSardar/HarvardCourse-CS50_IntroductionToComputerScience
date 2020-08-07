@@ -23,11 +23,13 @@ This project demonstrates basic understanding and implementation of programming 
 
   
 ### Caesar (beginner)
-- Implements a program that encrypts messages using Caesar’s cipher.
+- Implements a program that encrypts messages using Caesar’s cipher. The program prompts the user for plaintext and returns ciphertext.
 - Project file: [caesarCipher.c](caesarCipher.c)
 - Run the following commands:
   - make caesarCipher
   - ./caesarCipher
+- Helpful resource: [Decimal ASCII Chart](https://www.asciichart.com/[asciichart.com];)
+- Test cases: [Test Cases](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%202%20-%20Arrays/Snapshots/TestCasesforCaesar.JPG)
 
 ### Substitution (intermediate)
 - Implements a program that implements a substitution cipher.
