@@ -32,7 +32,7 @@ At the end of the election, whichever candidate has the greatest number of votes
   - make plurality
   - ./plurality
 - Snapshot:
-  - [Test Cases 1]
+  - [Test Cases](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%203%20-%20Algorithm/Snapshots/TestCasesForPlurality.JPG)
 
   
 ### Caesar (beginner)
