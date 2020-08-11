@@ -12,6 +12,8 @@ This project demonstrates basic understanding and implementation of programming 
   - Insertion Sort
   - Recursion
   - Merge Sort
+  - Big O
+  - Structs
 
 ## Project(s) include:
 ### Plurality
