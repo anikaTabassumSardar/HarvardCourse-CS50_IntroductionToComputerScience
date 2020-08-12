@@ -35,14 +35,14 @@ At the end of the election, whichever candidate has the greatest number of votes
   - [Test Cases](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%203%20-%20Algorithm/Snapshots/TestCasesForPlurality.JPG)
 
   
-### Caesar (beginner)
-- Implements a program that encrypts messages using Caesar’s cipher. The program prompts the user for plaintext and returns ciphertext.
-- Project file: [caesarCipher.c](caesarCipher.c)
+### Runoff (beginner)
+- Implement a program that runs a runoff election, per the [image.](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%203%20-%20Algorithm/Snapshots/TestCaseExampleForRunoff.JPG)
+- Project file: [runoff.c](runoff.c)
 - Run the following commands:
-  - make caesarCipher
-  - ./caesarCipher
-- Helpful resource: [Decimal ASCII Chart](https://www.asciichart.com/[asciichart.com];)
-- Test cases: [Test Cases](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%202%20-%20Arrays/Snapshots/TestCasesforCaesar.JPG)
+  - make runoff
+  - ./runoff
+- Distribution/Starter code: wget [distributionCode.c](https://cdn.cs50.net/2019/fall/psets/3/runoff/runoff.c)
+- Test cases: [Test Cases]
 
 ### Substitution (intermediate)
 - Implements a program that implements a substitution cipher.
