@@ -37,6 +37,7 @@ At the end of the election, whichever candidate has the greatest number of votes
   
 ### Runoff (beginner)
 - Implement a program that runs a runoff election, per the [image.](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%203%20-%20Algorithm/Snapshots/TestCaseExampleForRunoff.JPG)
+- Background: [Instant Runoff](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%203%20-%20Algorithm/Snapshots/RunOff.md)
 - Project file: [runoff.c](runoff.c)
 - Run the following commands:
   - make runoff
