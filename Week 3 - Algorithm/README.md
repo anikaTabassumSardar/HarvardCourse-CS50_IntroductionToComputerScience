@@ -28,6 +28,7 @@ At the end of the election, whichever candidate has the greatest number of votes
 - Completes the implementation of plurality.c in such a way that the program simulates a plurality vote election.
 - Distribution/Starter code: wget [distributionCode.c](https://cdn.cs50.net/2019/fall/psets/3/plurality/plurality.c)
 - Project file: [plurality.c](plurality.c)
+- Methods I implemented: vote and print_winner
 - Run the following commands:
   - make plurality
   - ./plurality
@@ -39,6 +40,7 @@ At the end of the election, whichever candidate has the greatest number of votes
 - Implement a program that runs a runoff election, per the [image.](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%203%20-%20Algorithm/Snapshots/TestCaseExampleForRunoff.JPG)
 - Background: [Instant Runoff](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%203%20-%20Algorithm/Snapshots/RunOff.md)
 - Project file: [runoff.c](runoff.c)
+- Methods I implemented: vote, tabulate, print_winner, find_min, is_tie, and eliminate.
 - Run the following commands:
   - make runoff
   - ./runoff
