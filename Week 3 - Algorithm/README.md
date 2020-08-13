@@ -40,20 +40,21 @@ At the end of the election, whichever candidate has the greatest number of votes
 - Implement a program that runs a runoff election, per the [image.](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%203%20-%20Algorithm/Snapshots/TestCaseExampleForRunoff.JPG)
 - Background: [Instant Runoff](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%203%20-%20Algorithm/Snapshots/RunOff.md)
 - Project file: [runoff.c](runoff.c)
-- Methods I implemented: vote, tabulate, print_winner, find_min, is_tie, and eliminate.
+- Methods I implemented: vote, tabulate, print_winner, find_min, is_tie, eliminate, findTheCandidate and retrieveAndAddItsNextPrefCandidate
 - Run the following commands:
   - make runoff
   - ./runoff
 - Distribution/Starter code: wget [distributionCode.c](https://cdn.cs50.net/2019/fall/psets/3/runoff/runoff.c)
-- Test cases: [Test Cases]
+- Test cases: [Test Cases](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%203%20-%20Algorithm/Snapshots/TestCasesForRunOff.JPG)
 
-### Substitution (intermediate)
-- Implements a program that implements a substitution cipher.
-- Project file: [substitutionCiper.c](substitutionCiper.c)
-- Test cases: [Test Cases](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%202%20-%20Arrays/Snapshots/TestCasesForSubstitutionCipher.JPG)
+### Tideman (intermediate)
+-Implements a program that runs a Tideman election, per the [image.](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%203%20-%20Algorithm/Snapshots/TestCaseExampleForTiderman.JPG)
+- Project file: [tideman.c](tideman.c)
+- Test cases: [Test Cases]
+- Distribution/Starter code: wget [distributionCode.c](https://cdn.cs50.net/2019/fall/psets/3/tideman/tideman.c)
 - Run the following commands:
-  - make substitutionCiper
-  - ./substitutionCiper
+  - make tideman
+  - ./tideman
 
 ## To run the app:
 * For this problem set, you’ll use CS50 IDE, a cloud-based programming environment. This environment is similar to CS50 Sandbox and CS50 Lab, the programming environments that David discussed during lecture.
