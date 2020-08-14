@@ -50,6 +50,7 @@ At the end of the election, whichever candidate has the greatest number of votes
 ### Tideman (intermediate)
 -Implements a program that runs a Tideman election, per the [image.](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%203%20-%20Algorithm/Snapshots/TestCaseExampleForTiderman.JPG)
 - Project file: [tideman.c](tideman.c)
+- Methods I implemented: vote, record_preference, add_pairs,sort_pairs, lock_pairs, and print_winner
 - Test cases: [Test Cases]
 - Distribution/Starter code: wget [distributionCode.c](https://cdn.cs50.net/2019/fall/psets/3/tideman/tideman.c)
 - Run the following commands:
