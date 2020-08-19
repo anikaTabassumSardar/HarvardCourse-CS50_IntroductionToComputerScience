@@ -43,7 +43,7 @@ At the end of the election, whichever candidate has the greatest number of votes
 - Methods I implemented: vote, tabulate, print_winner, find_min, is_tie, eliminate, findTheCandidate and retrieveAndAddItsNextPrefCandidate
 - Run the following commands:
   - make runoff
-  - ./runoff
+  - ./runoff alice charlie bob
 - Distribution/Starter code: wget [distributionCode.c](https://cdn.cs50.net/2019/fall/psets/3/runoff/runoff.c)
 - Test cases: [Test Cases](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%203%20-%20Algorithm/Snapshots/TestCasesForRunOff.JPG)
 
@@ -52,11 +52,11 @@ At the end of the election, whichever candidate has the greatest number of votes
 - Background: [Tideman](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%203%20-%20Algorithm/Snapshots/Tideman.md)
 - Project file: [tideman.c](tideman.c)
 - Methods I implemented: vote, record_preference, add_pairs,sort_pairs, lock_pairs, and print_winner
-- Test cases: [Test Cases]
+- Test cases: [Test Cases](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%203%20-%20Algorithm/Snapshots/TestCasesforTideman.JPG)
 - Distribution/Starter code: wget [distributionCode.c](https://cdn.cs50.net/2019/fall/psets/3/tideman/tideman.c)
 - Run the following commands:
-  - make tideman
-  - ./tideman
+  - make tideman 
+  - ./tideman alice charlie bob
 
 ## To run the app:
 * For this problem set, you’ll use CS50 IDE, a cloud-based programming environment. This environment is similar to CS50 Sandbox and CS50 Lab, the programming environments that David discussed during lecture.
