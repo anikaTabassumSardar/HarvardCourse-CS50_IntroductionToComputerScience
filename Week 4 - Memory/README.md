@@ -17,7 +17,8 @@ This project demonstrates basic understanding and implementation of programming 
 
 ## Project(s) include:
 ### Filter (beginner)
-- Implements a program that applies filters to BMPs, per the image.
+- Implements a program that applies filters to BMPs, per below.
+![image](https://github.com/anikaTabassumSardar/HarvardCourse-CS50_IntroductionToComputerScience/blob/master/Week%204%20-%20Memory/filter1.JPG)
 - Background: [Filter]
 - Distribution/Starter code: wget [distributionCode](https://cdn.cs50.net/2019/fall/psets/4/filter/less/filter.zip)
 - Project file: [filter1.c](filter1.c)
